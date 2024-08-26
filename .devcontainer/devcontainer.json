@@ -3,5 +3,10 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"features": {}
+	"features": {},
+	"extensions": [
+	    "ms-vscode.cpptools-extension-pack",
+	    "GitHub.copilot",
+	    "GitHub.copilot-chat"
+	  ]
 }
