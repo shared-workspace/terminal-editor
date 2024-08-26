@@ -1,12 +1,21 @@
 {
-  	"name": "Terminal Editor",
+	"name": "Terminal Editor",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
 	"features": {},
-	"extensions": [
-	    "ms-vscode.cpptools-extension-pack",
-	    "GitHub.copilot",
-	    "GitHub.copilot-chat"
-	  ]
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack",
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
+			]
+		}
+	},
+	"privileged": true,
+	"containerEnv": {
+		"MY_SECRET_FROM_REPO": "${{ secrets.MY_SECRET }}"
+	},
+	"postCreateCommand": "echo $MY_SECRET_FROM_REPO"
 }
