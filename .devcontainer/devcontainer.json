@@ -12,10 +12,13 @@
 				"GitHub.copilot-chat"
 			]
 		}
-	},
-	"privileged": true,
-	"containerEnv": {
-		"MY_SECRET_FROM_REPO": "${{ secrets.MY_SECRET }}"
-	},
-	"postCreateCommand": "echo $MY_SECRET_FROM_REPO"
+	}
+	// "privileged": true,
+	// "mounts": [
+	// 	{
+	// 		"source": "/home",
+	// 		"target": "/home",
+	// 		"type": "bind"
+	// 	}
+	// ]
 }

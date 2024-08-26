@@ -1,7 +1,7 @@
 [
 {
   "directory": "/workspaces/terminal-editor/build",
-  "command": "/usr/bin/clang++    -g   -o CMakeFiles/terminal-editor.dir/main.cpp.o -c /workspaces/terminal-editor/main.cpp",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/terminal-editor.dir/main.cpp.o -c /workspaces/terminal-editor/main.cpp",
   "file": "/workspaces/terminal-editor/main.cpp"
 }
 ]

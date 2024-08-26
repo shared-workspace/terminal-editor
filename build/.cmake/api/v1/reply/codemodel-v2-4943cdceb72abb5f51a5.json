@@ -6,6 +6,7 @@
 			[
 				{
 					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5.0"
@@ -38,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "terminal-editor::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-terminal-editor-Debug-e4fc530b8e818b7eaa75.json",
+					"jsonFile" : "target-terminal-editor-Debug-a217dffe7c11e47814ec.json",
 					"name" : "terminal-editor",
 					"projectIndex" : 0
 				}
@@ -54,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 0
+		"minor" : 3
 	}
 }
