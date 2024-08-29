@@ -4,10 +4,9 @@
         {
             "label": "CMake Build",
             "type": "shell",
-            "command": "cmake",
+            "command": "./script.sh",
             "args": [
-                "--build",
-                "${workspaceFolder}/build"
+                "build"
             ],
             "group": {
                 "kind": "build",

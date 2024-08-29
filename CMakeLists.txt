@@ -1,10 +1,13 @@
 cmake_minimum_required(VERSION 3.5.0)
-# Set the C++ compiler to clang++
-set(CMAKE_CXX_COMPILER clang++)
+# Set the C++ compiler to 
+set(CMAKE_CXX_COMPILER g++)
 project(terminal-editor VERSION 0.1.0 LANGUAGES C CXX)
 
+# Specify the C++ standard
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(terminal-editor main.cpp)
+add_executable(terminal-editor src/main.cpp)
 
 # include(CTest)
 # enable_testing()
