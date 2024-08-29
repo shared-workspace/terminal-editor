@@ -13,12 +13,4 @@
 			]
 		}
 	}
-	// "privileged": true,
-	// "mounts": [
-	// 	{
-	// 		"source": "/home",
-	// 		"target": "/home",
-	// 		"type": "bind"
-	// 	}
-	// ]
 }

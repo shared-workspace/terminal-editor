@@ -1,1 +1,0 @@
-/usr/bin/clang++  -g   CMakeFiles/terminal-editor.dir/main.cpp.o  -o terminal-editor 
